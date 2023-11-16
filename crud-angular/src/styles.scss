@@ -1,2 +1,7 @@
+@import '@angular/material/theming';
+@include mat-core();
+
+$custom-app-primary: mat-palett($mat-bluegray);
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
