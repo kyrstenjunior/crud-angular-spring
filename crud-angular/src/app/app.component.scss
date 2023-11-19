@@ -1,0 +1,8 @@
+.title-page {
+  color: white;
+  transition: .4s;
+
+  &:hover{
+    filter: brightness(.7);
+  }
+}
