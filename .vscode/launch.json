@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-CrudSpringApplication<crud-spring>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.junior.crudspring.CrudSpringApplication",
+      "projectName": "crud-spring",
+      "args": [
+        "--server.port=8080"
+      ],
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
