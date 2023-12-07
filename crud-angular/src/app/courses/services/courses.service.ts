@@ -9,7 +9,8 @@ import { delay, first, take, tap } from 'rxjs';
 })
 export class CoursesService {
 
-  private readonly API = '/assets/courses.json';
+  // por ser uma requisição com cominio diferente, preciso configurar um arquivo proxy.config.js
+  private readonly API = 'api/courses';
 
   constructor(private httpClient: HttpClient) { }
 
