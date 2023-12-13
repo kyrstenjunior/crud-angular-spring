@@ -5,6 +5,7 @@ import { Observable, catchError, of } from 'rxjs';
 import { MatDialog } from '@angular/material/dialog';
 import { ErrorDialogComponent } from 'src/app/shared/components/error-dialog/error-dialog.component';
 import { ActivatedRoute, Router, RouterLinkActive } from '@angular/router';
+import { NgControlStatusGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-courses',
@@ -38,7 +39,7 @@ export class CoursesComponent {
   }
 
   onAdd() {
-    this.router.navigate(commands: ['new'], extras: {relativeTo: this.route})
+    this.router.navigate(['new'], {relativeTo: this.route});
   }
 
 }
